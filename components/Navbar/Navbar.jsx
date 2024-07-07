@@ -89,6 +89,7 @@ function NavBar() {
                       className=" no-underline block md:inline font-semibold py-2 px-4 rounded-lg hover:bg-[#ffffff33] hover:shadow-md hover:backdrop-blur-md "
                       href={link.link}
                       onClick={() => setNavbar(!navbar)}
+                      key={link.name}
                     >
                       {link.name}
                     </Link>

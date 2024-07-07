@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import logo1 from '@/public/logo1.svg';
 const Clients = () => {
   return (
     <div>
@@ -14,15 +13,58 @@ const Clients = () => {
       </div>
       <div className="mt-10">
         <div className=" flex text-foreground justify-around items-center flex-wrap">
-          <img src="logo1.svg" className=" h-16 w-16 m-4 " alt="logo1" />
-          <img src="logo2.svg" className=" h-16 w-16 m-4 " alt="logo2" />
-          <img src="logo3.svg" className=" h-16 w-16 m-4 " alt="logo3" />
+          <Image
+            height={16}
+            width={16}
+            src="logo1.svg"
+            className=" h-16 w-16 m-4 "
+            alt="logo1"
+          />
+          <Image
+            height={16}
+            width={16}
+            src="logo2.svg"
+            className=" h-16 w-16 m-4 "
+            alt="logo2"
+          />
+          <Image
+            height={16}
+            width={16}
+            src="logo3.svg"
+            className=" h-16 w-16 m-4 "
+            alt="logo3"
+          />
           {/* write same line for logo 4 to logo 8
            */}
-          <img src="logo4.svg" className=" h-16 w-16 m-4 " alt="logo4" />
-          <img src="logo5.svg" className=" h-16 w-16 m-4 " alt="logo5" />
-          <img src="logo6.svg" className=" h-16 w-16 " m-4 alt="logo6" />
-          <img src="logo7.svg" className=" h-16 w-16 m-4 " alt="logo7" />
+          <Image
+            height={16}
+            width={16}
+            src="logo4.svg"
+            className=" h-16 w-16 m-4 "
+            alt="logo4"
+          />
+          <Image
+            height={16}
+            width={16}
+            src="logo5.svg"
+            className=" h-16 w-16 m-4 "
+            alt="logo5"
+          />
+          <Image
+            height={16}
+            width={16}
+            src="logo6.svg"
+            className=" h-16 w-16 "
+            m-4
+            alt="logo6"
+          />
+          <Image
+            height={16}
+            width={16}
+            src="logo7.svg"
+            className=" h-16 w-16 m-4 "
+            alt="logo7"
+          />
         </div>
       </div>
     </div>

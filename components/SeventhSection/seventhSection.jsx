@@ -1,12 +1,13 @@
 import React from 'react';
 import { Button } from '../ui/button';
 import { ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 const SeventhSection = () => {
   return (
     <div>
       <div className="w-screen mt-24 md:mt-0  h-auto flex flex-col md:flex-row  justify-center items-center px-8 md:px-0 ">
         <div className=" md:flex w-full md:w-[40%]   justify-center items-center">
-          <img src="Tesla.svg" />
+          <Image height={400} width={400} src="Tesla.svg" />
         </div>
         <div className=" w-full md:w-[50%]   text-left md:pr-24 ">
           <p className=" ">
@@ -29,12 +30,48 @@ const SeventhSection = () => {
             British Dragon Boat Racing Association
           </span>
           <div className="flex justify-between flex-wrap">
-            <img src="logo11.svg" className=" h-16 w-16 m-4 " alt="logo11" />
-            <img src="logo12.svg" className=" h-16 w-16 m-4 " alt="logo12" />
-            <img src="logo13.svg" className=" h-16 w-16 m-4 " alt="logo13" />
-            <img src="logo14.svg" className=" h-16 w-16 m-4 " alt="logo14" />
-            <img src="logo15.svg" className=" h-16 w-16 m-4 " alt="logo15" />
-            <img src="logo16.svg" className=" h-16 w-16 m-4 " alt="logo16" />
+            <Image
+              height={16}
+              width={16}
+              src="logo11.svg"
+              className=" h-16 w-16 m-4 "
+              alt="logo11"
+            />
+            <Image
+              height={16}
+              width={16}
+              src="logo12.svg"
+              className=" h-16 w-16 m-4 "
+              alt="logo12"
+            />
+            <Image
+              height={16}
+              width={16}
+              src="logo13.svg"
+              className=" h-16 w-16 m-4 "
+              alt="logo13"
+            />
+            <Image
+              height={16}
+              width={16}
+              src="logo14.svg"
+              className=" h-16 w-16 m-4 "
+              alt="logo14"
+            />
+            <Image
+              height={16}
+              width={16}
+              src="logo15.svg"
+              className=" h-16 w-16 m-4 "
+              alt="logo15"
+            />
+            <Image
+              height={16}
+              width={16}
+              src="logo16.svg"
+              className=" h-16 w-16 m-4 "
+              alt="logo16"
+            />
             <div className=" h-16 w-16 m-4 ">
               <Button variant="link" className="text-xl my-2 font-bold">
                 Meet all customers

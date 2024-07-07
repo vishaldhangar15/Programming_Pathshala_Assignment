@@ -5,6 +5,7 @@ import { Twitter } from 'lucide-react';
 import { Youtube } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Footer = () => {
@@ -17,7 +18,7 @@ const Footer = () => {
               href="/"
               className="flex title-font font-medium md:items-center md:justify-start justify-center text-white"
             >
-              <img src="logo0.svg" alt="logo0.svg" />
+              <Image height={16} width={16} src="logo0.svg" alt="logo0.svg" />
               <span className="ml-3 text-xl">Nexcent</span>
             </Link>
             <p className="mt-2 text-sm text-center text-gray-500">

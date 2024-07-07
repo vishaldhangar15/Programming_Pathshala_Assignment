@@ -1,11 +1,12 @@
 import React from 'react';
 import { Button } from '../ui/button';
+import Image from 'next/image';
 const FourthSection = () => {
   return (
     <div>
       <div className=" mt-24 md:mt-0 w-screen h-[500px] flex justify-center items-center">
         <div className="hidden md:flex md:w-[40%]   justify-center items-center">
-          <img src="illustration3.svg" />
+          <Image width={500} height={500} src="illustration3.svg" />
         </div>
         <div className="md:w-[60%]  text-left px-8 md:px-0 md:pr-48 ">
           <h1 className="text-2xl md:text-3xl flex  flex-col font-bold md:my-12 mt-8 md:mt-0   ">

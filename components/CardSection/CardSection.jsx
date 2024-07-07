@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '../ui/button';
 import { ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 const CardSection = () => {
   return (
     <section className="text-muted-foreground body-font mb-8 ">
@@ -19,7 +20,13 @@ const CardSection = () => {
       <div className="flex flex-wrap items-center justify-around gap-4  px-4 md:px-24 w-screen ">
         <div className="flex    items-center justify-between   bg-gray-100">
           <div className="relative bg-red-300   md:w-full md:h-full rounded overflow-hidden shadow-lg">
-            <img className="w-full" src="img1.svg" alt="image" />
+            <Image
+              height={200}
+              width={200}
+              className="w-full"
+              src="img1.svg"
+              alt="image"
+            />
             <div
               className="absolute bottom-0 left-0
             bg-opacity-50 w-full bg-white text-black p-4 flex  flex-col items-center justify-center "
@@ -35,7 +42,13 @@ const CardSection = () => {
         </div>
         <div className="flex items-center justify-between   bg-gray-100">
           <div className="relative bg-red-300  w-full h-full rounded overflow-hidden shadow-lg">
-            <img className="w-full" src="img2.svg" alt="image" />
+            <Image
+              height={200}
+              width={200}
+              className="w-full"
+              src="img2.svg"
+              alt="image"
+            />
             <div
               className="absolute bottom-0 left-0
             bg-opacity-50 w-full bg-white text-black p-4 flex  flex-col items-center justify-center "
@@ -51,7 +64,13 @@ const CardSection = () => {
         </div>
         <div className="flex items-center justify-between   bg-gray-100">
           <div className="relative bg-red-300  w-full h-full rounded overflow-hidden shadow-lg">
-            <img className="w-full" src="img3.svg" alt="image" />
+            <Image
+              height={200}
+              width={200}
+              className="w-full"
+              src="img3.svg"
+              alt="image"
+            />
             <div
               className="absolute bottom-0 left-0
             bg-opacity-50 w-full bg-white text-black p-4 flex  flex-col items-center justify-center "

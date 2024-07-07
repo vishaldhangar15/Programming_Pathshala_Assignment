@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import React from 'react';
 import { Button } from '../ui/button';
 import CountUp from 'react-countup';
@@ -29,7 +30,13 @@ const CountUpSection = () => {
         text-2xl md:text-3xl text-foreground font-bold  "
         >
           <div className="flex  ">
-            <img className="m-4" src="countup1.svg" alt="countup1" />
+            <Image
+              height={32}
+              width={32}
+              className="m-4"
+              src="countup1.svg"
+              alt="countup1"
+            />
             <div>
               {countOn && (
                 <CountUp className="m-4" start={0} end={2245341} duration={2} />
@@ -40,7 +47,13 @@ const CountUpSection = () => {
             </div>
           </div>
           <div className="flex">
-            <img className="m-4" src="countup2.svg" alt="countup2" />
+            <Image
+              height={32}
+              width={32}
+              className="m-4"
+              src="countup2.svg"
+              alt="countup2"
+            />
             <div>
               {countOn && (
                 <CountUp className="m-4" start={0} end={46328} duration={2} />
@@ -51,7 +64,13 @@ const CountUpSection = () => {
             </div>
           </div>
           <div className="flex">
-            <img className="m-4" src="countup3.svg" alt="countup3" />
+            <Image
+              height={32}
+              width={32}
+              className="m-4"
+              src="countup3.svg"
+              alt="countup3"
+            />
             <div>
               {countOn && (
                 <CountUp className="m-4" start={0} end={828867} duration={2} />
@@ -62,7 +81,13 @@ const CountUpSection = () => {
             </div>
           </div>
           <div className="flex">
-            <img className="m-4" src="countup4.svg" alt="countup4" />
+            <Image
+              height={32}
+              width={32}
+              className="m-4"
+              src="countup4.svg"
+              alt="countup4"
+            />
             <div>
               {countOn && (
                 <CountUp className="m-4" start={0} end={1926436} duration={2} />

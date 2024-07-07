@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../ui/button';
 import Link from 'next/link';
-
+import Image from 'next/image';
 const CauroselItem2 = () => {
   return (
     <section className="  md:mt-16  container grid lg:grid-cols-2 place-items-center py-20 md:py-16 gap-10">
@@ -32,7 +32,9 @@ const CauroselItem2 = () => {
       {/* Hero cards sections */}
       <div className="hidden md:block">
         <div>
-          <img
+          <Image
+            height={500}
+            width={700}
             src="illustration1.svg"
             alt="Hostel"
             className="image-animation h-[500px] w-[700px] "

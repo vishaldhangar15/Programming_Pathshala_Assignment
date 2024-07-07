@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from '../ui/button';
+import Image from 'next/image';
 
 const ThirdSection = () => {
   return (
@@ -18,7 +19,7 @@ const ThirdSection = () => {
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
             <div className="w-20 h-20 inline-flex items-center justify-center rounded-tl-2xl rounded-br-2xl bg-green-100 text-primary mb-5 flex-shrink-0">
-              <img src="Client1.svg" />
+              <Image height={50} width={50} src="Client1.svg" />
             </div>
             <div className="flex-grow">
               <h2 className="text-3xl text-foreground font-bold title-font  mb-3">
@@ -35,7 +36,12 @@ const ThirdSection = () => {
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
             <div className="w-20 h-20 inline-flex items-center justify-center rounded-tl-2xl rounded-br-2xl bg-green-100 text-primary mb-5 flex-shrink-0">
               {/* client 2 */}
-              <img src="Client2.svg" alt="client2.svg" />
+              <Image
+                height={50}
+                width={50}
+                src="Client2.svg"
+                alt="client2.svg"
+              />
             </div>
             <div className="flex-grow">
               <h2 className="text-foreground  text-3xl title-font font-bold mb-3">
@@ -52,7 +58,12 @@ const ThirdSection = () => {
           </div>
           <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
             <div className="w-20 h-20 inline-flex items-center justify-center rounded-tl-2xl rounded-br-2xl bg-green-100 text-primary mb-5 flex-shrink-0">
-              <img src="Client3.svg" alt="client3.svg" />
+              <Image
+                height={50}
+                width={50}
+                src="Client3.svg"
+                alt="client3.svg"
+              />
             </div>
             <div className="flex-grow">
               <h2 className=" text-3xl title-font font-bold text-foreground mb-3">
